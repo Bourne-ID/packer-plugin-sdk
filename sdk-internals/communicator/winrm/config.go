@@ -3,7 +3,7 @@ package winrm
 import (
 	"time"
 
-	"github.com/masterzen/winrm"
+	"github.com/Bourne-ID/winrm"
 )
 
 // Config is used to configure the WinRM connection

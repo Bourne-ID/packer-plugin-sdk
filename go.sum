@@ -73,6 +73,8 @@ github.com/Azure/go-ntlmssp v0.0.0-20180810175552-4a21cbd618b4 h1:pSm8mp0T2OH2CP
 github.com/Azure/go-ntlmssp v0.0.0-20180810175552-4a21cbd618b4/go.mod h1:chxPXzSsl7ZWRAuOIE23GDNzjWuZquvFlgA8xmpunjU=
 github.com/Azure/go-ntlmssp v0.0.0-20191115201650-bad6df29494a h1:3FwiePtHk5YJrooV799oo5jIfsgRdES25VdngJM03dU=
 github.com/Azure/go-ntlmssp v0.0.0-20191115201650-bad6df29494a/go.mod h1:chxPXzSsl7ZWRAuOIE23GDNzjWuZquvFlgA8xmpunjU=
+github.com/Bourne-ID/winrm v1.0.0 h1:H3NMT3vnrc9izLrT82S4JT3JBHsjUvpTUroK7N+/kxQ=
+github.com/Bourne-ID/winrm v1.0.0/go.mod h1:55sGm62qg5oLb5rMDwjksFxxdGoPzJMwQCsg8UOOK9U=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/ChrisTrenkamp/goxpath v0.0.0-20170922090931-c385f95c6022 h1:y8Gs8CzNfDF5AZvjr+5UyGQvQEBL7pwo+v+wX6q9JI8=
@@ -387,7 +389,7 @@ github.com/hashicorp/packer-plugin-sdk v0.0.6/go.mod h1:Nvh28f+Jmpp2rcaN79bULTou
 github.com/hashicorp/packer-plugin-sdk v0.0.7-0.20210111224258-fd30ebb797f0/go.mod h1:YdWTt5w6cYfaQG7IOi5iorL+3SXnz8hI0gJCi8Db/LI=
 github.com/hashicorp/packer-plugin-sdk v0.0.7-0.20210120105339-f6fd68d2570a/go.mod h1:exN0C+Pe+3zu18l4nxueNjX5cfmslxUX/m/xk4IVmZQ=
 github.com/hashicorp/packer-plugin-sdk v0.0.7-0.20210122130548-45a6ca0a9365/go.mod h1:K7VsU0lfJBDyiUrSNnS/j+zMxSRwwH9WC9QvHv32KsU=
-github.com/hashicorp/packer-plugin-sdk v0.0.7-0.20210125171053-07848ab3fefc/go.mod h1:gUJRyn5t9wqHDxIrm3Qc2rhwj2pV5psSANQLbUfAiEE=
+github.com/hashicorp/packer-plugin-sdk v0.0.10-0.20210126105622-8e1648006d93 h1:3wFACjFiBkF5sZrai0zvcWv2fHIgLa4g6ZXxbqngBhs=
 github.com/hashicorp/packer-plugin-sdk v0.0.10-0.20210126105622-8e1648006d93/go.mod h1:AtWQLNfpn7cgH2SmZ1PTedwqNOhiPvzcuKfH5sDvIQ0=
 github.com/hashicorp/serf v0.8.2 h1:YZ7UKsJv+hKjqGVUUbtE3HNj79Eln2oQ75tniF6iPt0=
 github.com/hashicorp/serf v0.8.2/go.mod h1:6hOLApaqBFA1NXqRQAsxw9QxuDEvNxSQRwA/JwenrHc=

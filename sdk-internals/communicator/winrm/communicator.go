@@ -15,8 +15,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Bourne-ID/winrm"
 	packersdk "github.com/hashicorp/packer-plugin-sdk/packer"
-	"github.com/masterzen/winrm"
 	"github.com/packer-community/winrmcp/winrmcp"
 )
 
