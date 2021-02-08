@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Bourne-ID/packer-plugin-sdk/sdk-internals/communicator/winrm"
 	winrmcmd "github.com/Bourne-ID/winrm"
 	"github.com/hashicorp/packer-plugin-sdk/multistep"
 	packersdk "github.com/hashicorp/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer-plugin-sdk/sdk-internals/communicator/winrm"
 	"golang.org/x/net/http/httpproxy"
 )
 
