@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Bourne-ID/winrm"
 	"github.com/hashicorp/packer-plugin-sdk/multistep"
 	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
-	"github.com/masterzen/winrm"
 )
 
 func testConfig() *Config {

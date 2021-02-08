@@ -11,6 +11,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/Bourne-ID/winrm"
 	"github.com/hashicorp/hcl/v2/hcldec"
 	helperssh "github.com/hashicorp/packer-plugin-sdk/communicator/ssh"
 	"github.com/hashicorp/packer-plugin-sdk/multistep"
@@ -19,7 +20,6 @@ import (
 	packerssh "github.com/hashicorp/packer-plugin-sdk/sdk-internals/communicator/ssh"
 	"github.com/hashicorp/packer-plugin-sdk/template/config"
 	"github.com/hashicorp/packer-plugin-sdk/template/interpolate"
-	"github.com/masterzen/winrm"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"
 )
