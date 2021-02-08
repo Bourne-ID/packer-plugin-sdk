@@ -1,10 +1,9 @@
-module github.com/hashicorp/packer-plugin-sdk
+module github.com/Bourne-ID/packer-plugin-sdk
 
 require (
+	github.com/Bourne-ID/winrm v1.0.0
 	github.com/aws/aws-sdk-go v1.36.5
 	github.com/dylanmei/winrmtest v0.0.0-20170819153634-c2fbb09e6c08
-	github.com/fatih/camelcase v1.0.0
-	github.com/fatih/structtag v1.0.0
 	github.com/gofrs/flock v0.7.3
 	github.com/google/go-cmp v0.5.2
 	github.com/google/shlex v0.0.0-20150127133951-6f45313302b9
@@ -20,7 +19,6 @@ require (
 	github.com/hashicorp/vault/api v1.0.4
 	github.com/hashicorp/yamux v0.0.0-20181012175058-2f1d1f20f75d
 	github.com/jehiah/go-strftime v0.0.0-20171201141054-1d33003b3869
-	github.com/masterzen/winrm v0.0.0-20201030141608-56ca5c5f2380
 	github.com/mitchellh/go-fs v0.0.0-20180402234041-7b48fa161ea7
 	github.com/mitchellh/iochan v1.0.0
 	github.com/mitchellh/mapstructure v1.4.0
@@ -35,7 +33,6 @@ require (
 	golang.org/x/mobile v0.0.0-20201208152944-da85bec010a2
 	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/tools v0.0.0-20201111133315-69daaf961d65
 )
 
 // replace github.com/hashicorp/packer => /Users/azr/go/src/github.com/hashicorp/packer
